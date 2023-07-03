@@ -1,0 +1,12 @@
+div#top{
+    background-color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+    color: teal;
+    border-radius: 20px; 
+    border-bottom: 20px;
+    border-left: 20px;
+}
+body{
+    background-color: rgba(6, 150, 175, 0.842);
+}
