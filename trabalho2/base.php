@@ -1,3 +1,10 @@
+<?php
+session_start();
+
+if(!isset($_SESSION['nome'])){
+    header("Location: login.html");
+    }
+?>
 <html>
     <head>
         <title>site-exercicio</title>
@@ -17,5 +24,6 @@
 </fieldset>
 <br>
 <fieldset id="inicio">
-<H1 id="começo"> BEM VINDO</H1>
+<H1 id="começo"> BEM VINDO AO LIVRANET <?php echo $_SESSION['nome'];?></H1>
+<p>Neste site você podera reservar livros dos mais diversos tipos</p>
 </fieldset></body></html>
